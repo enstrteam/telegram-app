@@ -16,7 +16,7 @@ function loadTelegramSDK(): Promise<any> {
       script.onload = () => {
         resolve(window.Telegram.WebApp);  // Резолвим, когда SDK загрузится
       };
-      script.onerror = (error) => {
+      script.onerror = () => {
         reject(new Error('Failed to load Telegram WebApp SDK'));
       };
 
