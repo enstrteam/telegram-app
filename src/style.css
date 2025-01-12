@@ -1,14 +1,17 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rubik:wght@300..900&display=swap');
+
+
+/* @font-face {
   font-family: "Poppins";
   src: url("/fonts/Poppins-Medium.ttf") format("truetype");
-  font-weight: 500; /* Medium */
+  font-weight: 500; 
   font-style: normal;
 }
 
 @font-face {
   font-family: "Poppins";
   src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
-  font-weight: 600; /* SemiBold */
+  font-weight: 600; 
   font-style: normal;
 }
 
@@ -22,9 +25,9 @@
 @font-face {
   font-family: "Rubik";
   src: url("/fonts/Rubik-Medium.ttf") format("truetype");
-  font-weight: 500; /* Medium */
+  font-weight: 500; 
   font-style: normal;
-}
+} */
 
 :root {
   font-family: "Rubik", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
