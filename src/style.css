@@ -65,7 +65,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-height: 100vh;
+  min-height: 110vh;
   background: url("/bg-pattern.webp"),
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
     url("/bg-gradient.png");
