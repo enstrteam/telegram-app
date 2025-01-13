@@ -109,7 +109,7 @@ export default {
 <style scoped>
 .header {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 30px;
 }
 
