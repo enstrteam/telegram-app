@@ -92,6 +92,7 @@
     width: fit-content;
     cursor: pointer;
     position: relative;
+    margin-bottom: 100px;
   }
   
   .coin-button img {
