@@ -89,6 +89,7 @@
   
   .coin-button {
     margin: 0 auto;
+    width: fit-content;
     cursor: pointer;
     position: relative;
   }
@@ -105,7 +106,6 @@
   .coin-shadow {
     position: absolute;
     top: 266px;
-    left: 40px;
     z-index: 5;
   }
   </style>

@@ -32,12 +32,10 @@ export default {
       { name: 'Призы', label: 'Призы', icon: '/menu/award-icon.webp', activeIcon: '/menu/award-icon-active.webp', path: '/awards' },
     ];
 
-    // Функция для определения активного пункта меню
     const isActive = (menuItemName) => {
       return route.path === getPathForMenuItem(menuItemName);
     };
 
-    // Получить путь для меню по имени
     const getPathForMenuItem = (menuItemName) => {
       const item = menuItems.find(item => item.name === menuItemName);
       return item ? item.path : '';
@@ -53,25 +51,31 @@ export default {
 </script>
 
 <style>
+
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 50px 0 0 0; 
+  position: fixed; 
+  bottom: 0;       
+  left: 0;         
+  width: 100%;     
+  padding: 50px 0 10px;
   background-image: url("/bg-footer.png");
-  background-size: cover;
+  background-size: unset;
   background-position: bottom right;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  z-index: 15; 
+  display: flex;
+  justify-content: space-around;
 }
 
 .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 25px 50px 25px;
+  gap: 20px;
+  padding: 0 25px;
 }
 
-.menu-item {
+.menu-link {
   display: flex;
   flex-direction: column;
   align-items: center;

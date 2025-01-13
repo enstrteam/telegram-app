@@ -82,13 +82,15 @@ export default {
 #app {
   text-align: center;
   color: white;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items:center;
 }
 
 .container {
-  min-width: 393px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   min-height: 100vh;

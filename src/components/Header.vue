@@ -108,7 +108,8 @@ export default {
 
 <style scoped>
 .header {
-  margin-top: 120px;
+  width: 100%;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
